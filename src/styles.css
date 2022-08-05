@@ -1,0 +1,45 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(165, 42, 42, 0.856);
+  background-image: url(https://pbs.twimg.com/media/EB_MG1SXoAATeN9.png);
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: 100px;
+
+  align-items: top;
+}
+
+.App {
+  /*background: cornflowerblue;*/
+  background: linear-gradient(90deg, #eb7820, rgb(223, 155, 8)); /*gradiente*/
+
+  margin: 30px; /*margen externo*/
+  border-radius: 8px;
+  padding: 0px; /*espacio semiexterno*/
+  /*border-color: #e214149d;
+  border-width: 3px;
+  border-style: solid;*/
+  box-shadow: 3px -3px 3px; /*sombra top/bottom left/right desenfoque*/
+
+  display: flex;
+  align-items: center;
+  /*justify-content: left;*/
+}
+
+.App img {
+  width: 140px;
+  padding: 7px 5px;
+  margin-right: 20px;
+  border-right: 3px double #443b3b9d; /*borde derecho*/
+}
+
+.info h2 {
+  color: darkred;
+}
+
+.info h3 {
+  color: rgb(42, 165, 97);
+}
